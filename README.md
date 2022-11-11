@@ -1,4 +1,4 @@
-# fw-precommit-hooks
+# pre-commit-hooks
 Contains custom hooks for the [pre-commit](https://pre-commit.com/) python package for checking source code. 
 
 ## Support
