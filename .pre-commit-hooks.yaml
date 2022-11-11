@@ -1,0 +1,5 @@
+-    id: format-c-source
+     name: Format 'C' source code
+     description: Uses various tools to format source files to comply with coding standard
+     entry: format-c-source
+     language: python
