@@ -42,10 +42,10 @@ setup(name='pre_commit_hooks',
       license='MIT',
       packages=['pre_commit_hooks'],
       zip_safe=False,
-      version=get_version("hooks/__init__.py"),
+      version=get_version("pre_commit_hooks/__init__.py"),
       entry_points={
             'console_scripts': [
-                'format-c-source=hooks.format_c_source:main',
+                'format-c-source=pre_commit_hooks.format_c_source:main',
             ],
         },
 
