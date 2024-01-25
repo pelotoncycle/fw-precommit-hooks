@@ -5,14 +5,14 @@
      language: python
 
 -    id: android-format
-     name: ktlint
-     description: Runs ktlint
+     name: format java + kt
+     description: Runs javaformat and ktlint
      entry: ./gradlew googleJavaFormat ktlintFormat
      pass_filenames: false
      language: system
 
 -    id: android-test
-     name: unittests
+     name: run unit tests
      description: Runs unit tests
      entry: ./gradlew test
      pass_filenames: false
