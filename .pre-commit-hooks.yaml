@@ -3,3 +3,24 @@
      description: Uses various tools to format source files to comply with coding standard
      entry: format-c-source
      language: python
+
+-    id: android-format
+     name: format java + kt
+     description: Runs javaformat and ktlint
+     entry: ./gradlew googleJavaFormat ktlintFormat
+     pass_filenames: false
+     language: system
+
+-    id: android-test
+     name: run unit tests
+     description: Runs unit tests
+     entry: ./gradlew test
+     pass_filenames: false
+     language: system
+
+-    id: android-build
+     name: build
+     description: Building App
+     entry: ./gradlew assembleDebug
+     pass_filenames: false
+     language: system
